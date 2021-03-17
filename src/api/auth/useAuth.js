@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useState } from 'react'
 
-import { init, login as authLogin } from './auth'
+import { init, logIn as authLogin } from './auth'
 
 export const AuthContext = createContext()
 
